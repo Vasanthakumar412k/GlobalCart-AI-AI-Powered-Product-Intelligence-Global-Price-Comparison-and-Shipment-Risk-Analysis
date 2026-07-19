@@ -1,0 +1,123 @@
+/* Fix Wide Screen Stretch: Apply ~20% side margins */
+@media (min-width: 1200px) {
+    .block-container {
+        max-width: 65% !important;
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+        margin: 0 auto !important;
+    }
+}
+
+/* Strict Light/Dark System Customization - Maximizing Readability */
+:root {
+    --base-card-bg: #f8fafc;
+    --base-card-border: #cbd5e1;
+    --base-text-main: #0f172a;
+    --base-text-muted: #475569;
+    --info-block-bg: #f1f5f9;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --base-card-bg: #111827;
+        --base-card-border: #1e293b;
+        --base-text-main: #f3f4f6;
+        --base-text-muted: #9ca3af;
+        --info-block-bg: #1e293b;
+    }
+}
+
+/* Global Text & Input Adjustments */
+p, span, label, div {
+    font-size: 16px !important;
+}
+
+/* Tabs Component Styling Overrides */
+.stTabs [data-baseweb="tab-list"] { gap: 8px; border-bottom: 2px solid var(--base-card-border); }
+.stTabs [data-baseweb="tab"] {
+    padding: 12px 24px;
+    background-color: var(--base-card-bg);
+    border: 1px solid var(--base-card-border);
+    border-radius: 6px 6px 0px 0px;
+    color: var(--base-text-muted) !important;
+    font-weight: 600;
+    font-size: 16px !important;
+    transition: all 0.2s ease;
+}
+.stTabs [aria-selected="true"] { 
+    background-color: #3b82f6 !important; 
+    color: #ffffff !important;
+    border-color: #3b82f6 !important;
+    font-weight: 700;
+    box-shadow: 0px 4px 14px rgba(59, 130, 246, 0.3);
+}
+div[data-baseweb="tab-highlight-bar"] { background-color: transparent !important; }
+
+/* Custom UI HTML Metric Component Cards */
+.dashboard-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-bottom: 20px; }
+@media (max-width: 768px) {
+    .dashboard-grid { grid-template-columns: 1fr; }
+}
+.ui-card {
+    background: var(--base-card-bg);
+    border: 2px solid var(--base-card-border);
+    border-radius: 12px;
+    padding: 22px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+.ui-card:hover { border-color: #3b82f6; transform: translateY(-2px); }
+
+.card-title { font-size: 14px !important; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #3b82f6; margin: 0 0 6px 0; }
+.card-model { font-size: 16px !important; font-weight: 700; color: var(--base-text-main); margin: 4px 0; min-height: 44px; }
+.card-value { font-size: 32px !important; font-weight: 800; color: var(--base-text-main); margin: 8px 0; }
+.card-sub { font-size: 15px !important; font-weight: 600; margin: 2px 0; color: var(--base-text-muted); }
+
+/* Brand Platform Card Accents */
+.brand-amz { border-top: 6px solid #ff9900; }
+.brand-flpk { border-top: 6px solid #2874f0; }
+.brand-ali { border-top: 6px solid #ff3860; }
+
+/* Informational & Text Blocks UI */
+.info-block { background: var(--info-block-bg); border: 2px solid var(--base-card-border); padding: 20px; border-radius: 8px; margin-bottom: 18px; }
+.info-label { font-size: 15px !important; font-weight: 800; color: #3b82f6; text-transform: uppercase; margin-bottom: 8px; }
+.info-desc { font-size: 16px !important; line-height: 1.7; color: var(--base-text-main); margin: 0; }
+
+/* Forms and Buttons Controls Upgrades */
+div[data-baseweb="input"] {
+    border-radius: 8px !important;
+    border: 2px solid var(--base-card-border) !important;
+}
+.stButton>button {
+    border-radius: 8px !important;
+    padding: 12px 28px !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    background-color: #3b82f6 !important;
+    color: white !important;
+    border: none !important;
+    transition: all 0.2s ease !important;
+}
+.stButton>button:hover {
+    background-color: #2563eb !important;
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3) !important;
+}
+
+/* Styled Link Action Button acting as Target Anchor */
+.tab-link-btn {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: #10b981 !important;
+    color: white !important;
+    font-weight: 700;
+    font-size: 16px !important;
+    padding: 14px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+.tab-link-btn:hover {
+    background-color: #059669 !important;
+    color: white !important;
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3) !important;
+}

@@ -1,0 +1,37 @@
+{
+    "is_search_mode": true,
+    "product_name": "mechanical keyboard ",
+    "why_used": "Mechanical keyboards are used for their superior tactile feedback, improved typing accuracy and speed, enhanced durability, and extensive customization options compared to traditional membrane keyboards. They are favored by gamers, programmers, writers, and professionals who spend extended periods typing.",
+    "benefits": [
+        "Superior tactile feedback and audible click (depending on switch type) for a more satisfying and accurate typing experience.",
+        "Significantly higher durability with switches rated for millions of keystrokes, ensuring a longer lifespan.",
+        "Extensive customization potential through hot-swappable switches, diverse keycap sets, and programmable layouts."
+    ],
+    "worth_buying": "YES - For individuals who value typing comfort, precision, durability, and customization, a mechanical keyboard offers a substantial upgrade over standard membrane keyboards. The investment is justified by the enhanced user experience and longevity, especially for daily heavy use.",
+    "common_complaints": [
+        "Noise: Certain switch types (e.g., 'clicky' switches) can be loud, potentially disruptive in shared or quiet environments.",
+        "Price: Generally more expensive than membrane keyboards, with premium and custom models costing significantly more.",
+        "Weight & Portability: Often heavier and bulkier, making them less convenient for travel compared to slim membrane alternatives.",
+        "Learning Curve: Users may require an adjustment period to adapt to the distinct feel and actuation points of mechanical switches."
+    ],
+    "amazon": {
+        "base_price": "34000",
+        "shipping_price": "40",
+        "import_charges": "0",
+        "eta": "2-4 Days"
+    },
+    "flipkart": {
+        "base_price": "33500",
+        "shipping_price": "40",
+        "import_charges": "0",
+        "eta": "2-5 Days"
+    },
+    "aliexpress": {
+        "base_price": "26000",
+        "shipping_price": "750",
+        "import_charges": "7280",
+        "eta": "15-30 Days"
+    },
+    "cheaper_alternative": "While AliExpress offers a lower base price, the total cost including significant import charges (INR 7280) makes its final price (INR 34030) comparable to or even slightly higher than domestic options. Domestic platforms (Amazon India, Flipkart) provide similar total pricing for high-end models, with the added advantages of faster delivery, no customs hassle, and better local warranty/return support. Therefore, for highest value and reduced risk, purchasing from Amazon India or Flipkart is the superior option despite the marginally higher base price.",
+    "transit_risks": "Domestic transport via Amazon India and Flipkart typically involves minimal transit risks, with reliable logistics, quick delivery, and clear channels for damage claims or returns. Cross-border shipping from AliExpress carries higher risks including potential for significant delays due to customs clearance, unexpected or increased import duties upon arrival, and a greater likelihood of package loss or damage during extended international transit. Resolving issues like damaged goods or non-delivery with international sellers can also be considerably more complex and time-consuming."
+}

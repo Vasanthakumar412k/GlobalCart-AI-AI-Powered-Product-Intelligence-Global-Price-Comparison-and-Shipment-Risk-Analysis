@@ -1,0 +1,31 @@
+{
+    "is_search_mode": true,
+    "product_name": "Samsung Galaxy M34 5G (6GB RAM, 128GB Storage)",
+    "why_used": "Smartphones are multi-functional handheld devices serving as portable computers for communication, internet access, entertainment, productivity, and emergency services.",
+    "benefits": "1. Immersive 120Hz Super AMOLED Display: Provides a smooth viewing experience with vibrant colors. 2. 50MP No Shake Camera (OIS) with Nightography: Enables stable, high-quality photos even in low light. 3. Monster 6000mAh Battery with 25W Fast Charging: Offers long-lasting power, potentially up to two days, with quick recharge capabilities.",
+    "worth_buying": "YES. The Samsung Galaxy M34 5G offers a strong combination of display quality, camera performance, and battery life at a competitive mid-range price in India. Its commitment to up to 4 generations of OS upgrades and 5 years of security updates also adds significant long-term value.",
+    "common_complaints": "General smartphone complaints include rapid battery degradation over time, decreasing performance with age, software glitches or bloatware, lack of durable build materials (leading to screen breakage or body damage), and limited repairability due to integrated components.",
+    "amazon": {
+        "model_name": "Samsung Galaxy M34 5G (Midnight Blue, 6GB RAM, 128GB Storage)",
+        "base_price": "23900",
+        "shipping_price": "0",
+        "import_charges": "0",
+        "eta": "2-4 Days"
+    },
+    "flipkart": {
+        "model_name": "Samsung Galaxy M34 5G (Waterfall Blue, 6GB RAM, 128GB Storage)",
+        "base_price": "23900",
+        "shipping_price": "0",
+        "import_charges": "0",
+        "eta": "2-5 Days"
+    },
+    "aliexpress": {
+        "model_name": "Samsung Galaxy M34 5G (International Variant, 6GB RAM, 128GB Storage) - Estimated",
+        "base_price": "19205",
+        "shipping_price": "2505",
+        "import_charges": "9770",
+        "eta": "15-30 Days"
+    },
+    "cheaper_alternative": "The domestic options from Amazon and Flipkart are significantly more cost-effective. The estimated landed cost for the international variant from AliExpress (approx. INR 31,480) is considerably higher than purchasing within India (INR 23,900) due to high import duties and international shipping, despite a potentially lower base price. The domestic market offers a better value proposition with immediate availability and no customs complexities.",
+    "transit_risks": "Domestic purchases from Amazon and Flipkart offer reliable tracking, secure transit, and standard Indian warranty coverage. Cross-border imports from platforms like AliExpress carry higher risks, including potential customs entry blockages or delays, lack of official warranty support in India, and complex return/repair processes. Logistics tracking visibility for international shipments can also be less granular and prone to longer transit times."
+}
